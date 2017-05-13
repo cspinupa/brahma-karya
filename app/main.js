@@ -1,11 +1,2 @@
-import _ from 'loadash';
-
-function commponent () {
-  var element = document.createElement('div');
-
-  element.innerHTML = _.join(['Hello','webpack'],'');
-
-  return element;
-}
-
-document.body.appendChild(commponent());
+import App from './app.jsx';
+import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
