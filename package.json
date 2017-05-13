@@ -1,0 +1,30 @@
+{
+  "name": "brahma-karya",
+  "version": "1.0.0",
+  "description": "Brahma karya to everyon with a single click. A medium for all brahma's and people looking for brahma's to get any of the karya's done.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config mywebpack.config.js",
+    "test": "test",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cspinupa/brahma-karya.git"
+  },
+  "keywords": [
+    "brahma-karya"
+  ],
+  "author": "chetan pinupa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cspinupa/brahma-karya/issues"
+  },
+  "homepage": "https://github.com/cspinupa/brahma-karya#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "loadash": "0.0.1",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
